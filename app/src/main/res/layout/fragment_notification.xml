@@ -1,0 +1,103 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context="app.admin.schoolappcentral.MainActivity"
+    android:background="@color/colorBackGround">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:id="@+id/ImageSwitcher01"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"
+            android:background="@drawable/logo">
+        </ImageView>
+
+         <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             android:background="@color/FragmentBackground"
+             android:orientation="vertical">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/notificationlistview"
+            android:layout_below="@id/layout_top"
+            android:dividerHeight="0dp"
+            android:divider="@android:color/transparent"
+            android:padding="3dp">
+        </ListView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/message_card_view"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="0dp"
+            android:visibility="gone"
+            android:layout_below="@id/layout_top"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/txt_message"
+                android:textColor="@color/secondary_text"
+                android:text="@string/nodata_message_inbox"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"/>
+
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:id="@+id/layout_reload">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textColor="@color/secondary_text"
+                android:text="@string/txt_error_unabletoload"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"/>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Refresh"
+                android:id="@+id/btn_refresh"
+                android:background="@drawable/rect1"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+   <!--<android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_additem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/ic_action_add"
+        tools:ignore="VectorDrawableCompat" />-->
+
+</android.support.design.widget.CoordinatorLayout>

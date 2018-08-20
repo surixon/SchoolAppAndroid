@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">School App Central</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="admin_topic_id">9563d003-dec1-42d9-bd48-e25c9d7fbc6b</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="txt_unspecifiederror_message">Some unspecified error occured in process.Please try again.</string>
+
+    <string name="txt_backagain_exit">press back button again to exit application.</string>
+
+    <string name="txt_error_unabletoload">Unable to load data because of srever error.Please try again.</string>
+    <string name="txt_noschoolinfo_available">No schoolinfo available right now.Please try again.</string>
+
+    <string name="nodata_message_inbox">There are no recent notifications.</string>
+    <string name="nodata_event">There are no recent events.</string>
+    <string name="nodata_files">No documents have been shared with you.</string>
+    <string name="nodata_links">No links have been shared with you.</string>
+    <string name="nodata_clubs">There are no registered clubs or organizations.</string>
+    <string name="nodata_teacher">There are no registered teachers.</string>
+
+    <string name="txt_wmi">I Am a</string>
+    <string name="txt_parent">Parent</string>
+    <string name="txt_student">Student</string>
+    <string name="txt_guest">Guest</string>
+
+    <string name="txt_message_successfullysubscribed_teacher">You have successfully subscribed.Now you can get all notifications form this teacher.</string>
+    <string name="txt_message_subscriberro_teacher">Unable to subscribe to this teacher because of some serverside error.Please try again or contact your school.</string>
+
+    <string name="txt_message_successfullysubscribed_club">You have successfully subscribed.Now you can get all notifications form this club or organization.</string>
+    <string name="txt_message_subscriberro_club">Unable to subscribe to this club because of some serverside error.Please try again or contact your school.</string>
+
+    <string name="txt_nointernet_title">No Internet Available</string>
+    <string name="txt_nointernet_message">Smartschool required an active internet connection.It seems that you are not connected to internet.Please check your connectivity and try again.</string>
+
+    <string name="txt_unabletologin_title">Unable to Login</string>
+    <string name="txt_unabletologin_message">We are unable to make login for you at this time because of some server error.Please try agian after some time.</string>
+
+    <string name="txt_filedownloadcomplete_title">Success</string>
+    <string name="txt_filedownloadcomplete_message">File downloded successfully.You can review it from root of your sd card.</string>
+
+    <string name="txt_notification_title">Notification</string>
+    <string name="txt_event_title">Events</string>
+
+    <string name="txt_unable_load_schoolprofile">Unable to load schoolprofile.Please try agin with reloading this screen.</string>
+
+    <string name="runtime_permissions_txt">Required Permission</string>
+
+    <string name="txt_nocontact_available">There is no contact number provided in school profile.</string>
+    <string name="txt_noemail_available">There is no email provided in school profile.</string>
+    <string name="txt_nourl_available">There is no web url provided in school profile.</string>
+    <string name="txt_nolatlong_available">There is no location detail provided in school profile.</string>
+</resources>

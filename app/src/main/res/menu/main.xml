@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <!--<item-->
+            <!--android:id="@+id/action_signout"-->
+            <!--android:orderInCategory="100"-->
+            <!--android:title="Sign Out"-->
+            <!--android:visible="false"-->
+            <!--app:showAsAction="never" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/action_signin"-->
+            <!--android:orderInCategory="100"-->
+            <!--android:title="Sign In"-->
+            <!--android:visible="false"-->
+            <!--app:showAsAction="never" />-->
+
+
+    <item
+        android:id="@+id/logo"
+        android:icon="@drawable/bg_white_logo"
+        android:title="logo"
+        app:showAsAction="ifRoom"/>
+</menu>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="top">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/userimage"
+                android:background="@android:color/white"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:src="@drawable/logo"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:background="@android:color/white"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_clubname"
+                    android:textColor="@color/primary_text"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_description"
+                    android:textColor="@color/secondary_text"
+                    android:padding="2dp"
+                    android:gravity="left"
+                    android:textSize="12sp"
+                    android:layout_marginBottom="10dp"
+                    android:maxLines="4" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/phonevolume"
+                        android:layout_weight="1"
+                        android:id="@+id/btn_contact"
+                        android:scaleType="fitCenter"
+                        android:padding="10dp"
+                        android:background="@drawable/rect2"/>
+
+                    <ImageButton
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/mailnew"
+                        android:layout_weight="1"
+                        android:id="@+id/btn_email"
+                        android:scaleType="fitCenter"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:padding="10dp"
+                        android:background="@drawable/rect2"/>
+
+                    <ImageButton
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/subscribenew"
+                        android:id="@+id/btn_subscribe"
+                        android:background="@drawable/rect2"
+                        android:scaleType="fitCenter"
+                        android:layout_gravity="center_vertical"
+                        android:padding="10dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

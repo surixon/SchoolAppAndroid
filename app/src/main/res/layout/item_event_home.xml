@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <com.andexert.library.RippleView
+        android:id="@+id/events"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        card_view:rv_color="@color/accent"
+        rv_centered="true">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="right"
+            android:id="@+id/txt_eventdate"
+            android:textSize="@dimen/date_size"
+            android:textColor="@color/secondary_text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:id="@+id/txt_eventtitle"
+            android:textColor="@color/primary_text"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_detail"
+            android:textColor="@color/primary_text"
+            android:padding="5dp"
+            android:maxLines="2"/>
+    </LinearLayout>
+
+    </com.andexert.library.RippleView>
+    <View android:background="@color/divider"
+        android:layout_width = "fill_parent"
+        android:layout_height="1dip"
+        android:padding="0dp" />
+
+</LinearLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_menu_dashboard"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_menu_messageinbox"
+            android:title="Notifications" />
+
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_menu_events"
+            android:title="Events" />
+
+        <item
+            android:id="@+id/nav_teachers"
+            android:icon="@drawable/ic_menu_teachers"
+            android:title="Faculty &amp; Staff" />
+
+        <item
+            android:id="@+id/nav_schoolorganisation"
+            android:icon="@drawable/ic_menu_cluborganization"
+            android:title="Clubs / Organizations" />
+
+    </group>
+
+    <item android:title="Resources">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_links"
+                    android:icon="@drawable/ic_menu_links"
+                    android:title="Quick Links" />
+
+                <item
+                    android:id="@+id/nav_documents"
+                    android:icon="@drawable/ic_menu_assignment"
+                    android:title="Documents" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Social">
+        <menu>
+            <group android:checkableBehavior="single">
+               <!-- <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_share_black_24dp"
+                    android:title="Share" />-->
+
+                <item
+                    android:id="@+id/nav_facebook"
+                    android:icon="@drawable/ic_menu_facebook"
+                    android:title="Facebook" />
+                <item
+                    android:id="@+id/nav_twitter"
+                    android:icon="@drawable/ic_menu_twitter"
+                    android:title="Twitter" />
+                <item
+                    android:id="@+id/nav_youtube"
+                    android:icon="@drawable/ic_google_plus"
+                    android:title="Google +" />
+                <item
+                    android:id="@+id/nav_instagram"
+                    android:icon="@drawable/ic_menu_instagram"
+                    android:title="Instagram" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Settings">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_aboutschool"
+                    android:icon="@drawable/ic_menu_school"
+                    android:title="About School" />
+                <item
+                    android:id="@+id/nav_admin"
+                    android:icon="@drawable/ic_menu_admin"
+                    android:title=" Admin Login" />
+
+                <item
+                    android:id="@+id/nav_developer"
+                    android:icon="@drawable/ic_menu_info"
+                    android:title="Developer Info" />
+            </group>
+        </menu>
+    </item>
+
+    <!--<item android:title="Other">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_aboutus"
+                    android:icon="@drawable/ic_menu_info"
+                    android:title="About Us" />
+            </group>
+        </menu>
+    </item>-->
+
+</menu>
